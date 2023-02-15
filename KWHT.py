@@ -1,4 +1,4 @@
-#--------------------INFO-------------------#
+U#--------------------INFO-------------------#
 #CODING BY TURAG
 #SCRIPT ALL CLONE 
 #FACEBOOK  MD NURUL ISLAM
@@ -56,6 +56,7 @@ def o():
     if KWHT == '5':
     	C4()
     if KWHT == '0':
+
 def menu():
 	os.system('clear')
 	os.system('xdg-open https://facebook.com/groups/544684501030088/')
