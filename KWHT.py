@@ -56,7 +56,6 @@ def o():
     if KWHT == '5':
     	C4()
     if KWHT == '0':
-        os.system('exit')
 def menu():
 	os.system('clear')
 	os.system('xdg-open https://facebook.com/groups/544684501030088/')
@@ -1206,7 +1205,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/TANVIR-404/Approval.txt/blob/main/paid.txt').text
+    httpCaht = requests.get('https://github.com/TANVIR-404/Approval.txt/blob/main/Approval.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       msg = str(os.geteuid())
