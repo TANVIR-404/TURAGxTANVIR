@@ -47,7 +47,7 @@ def o():
     print("[\033[1;92m\033[1;34m6\033[1;92m] USERNAME CLONE")
     print("[\033[38;5;208m\033[1;34m0\033[1;92m] EXIT")
     KWHT ==input("\033[1;92m[\033[1;34m➢]\033[1;92mCHOSSE : ")
-    if KWHT = '1':
+    if KWHT == '1':
     	KWHT()
     if KWHT == '3':
         menu()
