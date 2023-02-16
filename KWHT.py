@@ -1,4 +1,4 @@
-U#--------------------INFO-------------------#
+#--------------------INFO-------------------#
 #CODING BY TURAG
 #SCRIPT ALL CLONE 
 #FACEBOOK  MD NURUL ISLAM
