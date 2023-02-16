@@ -1206,7 +1206,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/TANVIR-404/Approval.txt/blob/main/Approval.txt').text
+    httpCaht = requests.get('https://raw.githubusercontent.com/TANVIR-404/Approval.txt/main/Approval.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       msg = str(os.geteuid())
